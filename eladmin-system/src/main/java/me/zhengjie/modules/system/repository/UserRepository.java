@@ -30,6 +30,7 @@ import java.util.Set;
  */
 public interface UserRepository extends JpaRepository<User, Long>, JpaSpecificationExecutor<User> {
 
+
     /**
      * 根据用户名查询
      * @param username 用户名
